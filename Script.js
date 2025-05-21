@@ -1,5 +1,5 @@
 // Användaren väljer sitt vapen via en prompt
-const userChoice = prompt('Välj vapen: sten, sax eller påse').toLowerCase();
+const userChoice = prompt('Välj vapen: sten, sax eller påse').toLowerCase();//prompt blir den där tomma rutan man kan fylla i.
 
 // Funktion som genererar datorns val slumpmässigt
 function selectComputerWeapon() {
